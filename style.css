@@ -1,0 +1,93 @@
+.custom-container {
+    height: 100vh;
+    padding: 20px 15px;
+}
+
+.fa-location-crosshairs {
+    font-size: 20px;
+    color: white;
+}
+
+.fa-location-dot {
+    color: gray;
+}
+
+.custom-boxT° {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;   
+}
+
+.custom-T° {
+    font-size: 80px;
+}
+
+span {
+    color: gray;
+    font-size: 20px;
+}
+
+.custom-boxDate {
+    margin: 6.57px 0;
+}
+
+@media (max-width: 1183px) {
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+}
+
+.card {
+    display: inline-block;
+    background-color: #221d3c;
+    min-width: 115px;
+
+}
+
+.custom-p-T° {
+    margin: 0;
+    font-size: 13px;
+}
+
+.fa-compass {
+    color: white;
+    margin: 0;
+    padding-right: 6px;
+}
+
+.custom-boxPercentages {
+    width: 265px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.percentages {
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+.bar {
+    width: 265px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 20px 25px 45px rgba(0, 0, 0, 0.5);
+}
+
+.percentage {
+    width: var(--w);
+    height: 100%;
+    background-color: rgb(214, 214, 68);
+    border-radius: 10px;
+    animation: Increase 5s ease;
+}
+
+@keyframes Increase {
+    0% {width: 0%;}
+    100% {width: var(--w);}
+}
