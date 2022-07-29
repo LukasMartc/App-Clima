@@ -1,5 +1,4 @@
 .custom-container {
-    height: 100vh;
     padding: 20px 15px;
 }
 
@@ -9,28 +8,17 @@
 }
 
 .fa-location-dot {
-    color: gray;
+    color: rgb(212, 211, 211);
 }
-
-.custom-boxT° {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    margin-left: 10px;   
-}
-
 .custom-T° {
-    font-size: 80px;
+    font-size: 100px;
 }
 
 span {
-    color: gray;
-    font-size: 20px;
+    color: rgb(212, 211, 211);
+    font-size: 40px;
 }
 
-.custom-boxDate {
-    margin: 6.57px 0;
-}
 
 @media (max-width: 1183px) {
     .scrolling-wrapper {
@@ -47,9 +35,16 @@ span {
 
 }
 
+.custom-boxT° {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;   
+}
+
 .custom-p-T° {
     margin: 0;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .fa-compass {
